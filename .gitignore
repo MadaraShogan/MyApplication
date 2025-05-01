@@ -1,15 +1,48 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration
 local.properties
+
+# IDE
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Capture folder
+captures/
+
+# External builds
+.externalNativeBuild/
+.cxx/
+
+# Android Studio specific files
+*.log
+*.keystore
+*.jks
+
+# Apk and AABs
+*.apk
+*.aab
+
+# Crashlytics/Firebase
+fabric.properties
+crashlytics-build.properties
+
+# Navigation Editor & Asset Wizard
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# More IDE metadata (optional)
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+
+# Misc
+*.swp
