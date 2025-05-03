@@ -43,6 +43,7 @@ fun MyApplication(){
             shape= RoundedCornerShape(corner = CornerSize(15.dp)),
 //            colors = CardDefaults.cardColors(containerColor = Color.Green),
 //            elevation = 4.dp
+
                 ){
 
         }
